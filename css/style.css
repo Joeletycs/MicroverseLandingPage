@@ -1,1 +1,37 @@
-something
+header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+   }
+
+@media (max-width: 50%) {
+  #header {
+    flex-direction: column;
+  }
+
+  #header-img {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    max-height: auto;
+  }
+  #logos {
+    text-align: center
+  }
+
+  #logos {
+    padding: 10px;
+  }
+  #nav-bar {
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+  }
+
+  #wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
